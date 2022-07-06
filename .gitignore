@@ -1,0 +1,7 @@
+#outputs
+*.o
+*.elf
+*.a
+*.exe
+*.dll
+build
