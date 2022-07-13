@@ -32,5 +32,9 @@
 
 int main(int argc, char** argv)
 {
-	return ugly_init("Ugly name");
+	struct win_ctx *ctx;
+
+	ugly_init("Ugly name", &ctx);
+
+	ugly_stop();
 }
